@@ -11,7 +11,9 @@ import javax.servlet.http.*;
 
 public class CartServlet extends HttpServlet {
 
-    @Override
+    private static final long serialVersionUID = 1L;
+
+	@Override
     protected void doPost(HttpServletRequest request,
             HttpServletResponse response)
             throws ServletException, IOException {
