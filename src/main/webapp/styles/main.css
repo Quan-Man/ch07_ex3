@@ -1,0 +1,94 @@
+/* ==== Reset & base ==== */
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    margin: 0;
+    padding: 2em;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* ==== Headings ==== */
+h1 {     
+    font-size: 150%;
+    color: #006d77;
+    margin-bottom: 1em;    
+    text-align: center;
+}
+
+/* ==== Table styling ==== */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto 2em auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+th {
+    background: #006d77;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em;
+}
+
+td {
+    border-bottom: 1px solid #ddd;
+    padding: 0.8em 1em;
+    vertical-align: middle;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+.right {
+    text-align: right;
+}
+
+/* ==== Quantity input ==== */
+#quantity {
+    width: 3em;
+    padding: 0.3em;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* ==== Buttons & links ==== */
+input[type="submit"], 
+button {
+    background: #118ab2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover, 
+button:hover {
+    background: #0a6d8c;
+}
+
+a {
+    color: #ef476f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ==== Footer / info section ==== */
+p {
+    text-align: center;
+    margin-top: 1em;
+    color: #444;
+}
